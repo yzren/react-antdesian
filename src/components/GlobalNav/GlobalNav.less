@@ -1,0 +1,74 @@
+:global {
+	.antdNavIconHide{
+		display: none;
+	}
+	.antdNavIconShow{
+		display: block;
+	}
+	#hideState{
+
+	}
+	#showState{
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+		opacity: 1;
+	}
+	.antNavHWrap{
+	  width:85%;
+	  height:60px;
+	  float: right; 
+	  display: block !important;
+	}
+	.antNavSWrap{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width:50%;
+		height:100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		opacity: 0;
+		-webkit-transform: translateX(-100%);
+		transform: translateX(-100%);
+		-webkit-transition: opacity .3s,-webkit-transform .3s;
+    	transition: opacity .3s,-webkit-transform .3s;
+    	transition: transform .3s,opacity .3s;
+    	transition: transform .3s,opacity .3s,-webkit-transform .3s;
+	}
+	.antNavHWrap li{
+		height: 50px !important;
+		top: 11px !important;
+	}
+	.antdNavWrap{
+	    height: 60px;
+	    line-height: 70px;
+	    padding-left: 5%;
+	    background-color: #fff;
+	    overflow: hidden;
+	}
+	.antdNavWrap .antdNavIconHide,.antdNavWrap .antdNavIconShow{
+		font-size: 20px;
+		float: left;
+		padding-top: 20px;
+		cursor: pointer;
+	}
+
+	.antdNavLogo{
+		display: inline-block;
+		width: 10%;
+		float: left; 
+		padding-top: 8px;
+	    img{
+	    	width: 90px;
+	    }
+	}
+	  @media screen and (max-width:750px){
+		.antdNavLogo{
+			width: 93%;
+			text-align: center;
+		}
+	}
+}
+
+

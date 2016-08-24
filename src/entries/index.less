@@ -1,0 +1,57 @@
+
+:global {
+	html, body, #root {
+		height: 100%;
+	}
+	#root{
+		background-color: #ececec;
+	}
+	.ant-menu-horizontal{
+		border:none !important;
+	}
+
+/* 这是列表的公共样式 */
+	.antd-wrap{
+		background-color: #ececec;
+		padding-bottom:5.0rem;
+	}
+	.antd-con-wrap{
+		max-width: 85%;
+		margin: 1.25rem auto 0;
+		width: 100%;
+		ul{
+			li{
+				width: 90%;
+				background-color: #fff;
+				padding: 5%;
+				border-radius: 4px;
+				text-align: center;
+				margin: 1.25rem auto;
+				transition:box-shadow .5s linear;
+				-moz-transition:box-shadow .5s linear; /* Firefox 4 */
+				-webkit-transition:box-shadow .5s linear; /* Safari and Chrome */
+				-o-transition:box-shadow .5s linear;
+			}
+			li:hover{
+				box-shadow:0 0 10px #999;
+			}
+		}
+		a,a:hover{
+			color:#666;
+		}
+	}
+	/* M端下样式 */
+	#mWrap{
+		.antd-con-wrap{
+			max-width: 100%;
+		    padding: 0 3%;
+		    margin: 0 auto;
+		}
+		.antd-con-wrap ul li,.ant-search-wrapper,.antd-tabs-wrapper,.antd-hot-labels{
+			width: 100%;
+		}
+		
+	}
+}
+
+

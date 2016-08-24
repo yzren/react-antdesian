@@ -1,0 +1,153 @@
+:global {
+        .antdrightWrap{
+        li{
+            padding: 0;
+            overflow: hidden;
+        }
+        h3,h4{
+            font-size:1.2rem;
+            font-weight: normal;
+            padding: 1rem 0.25rem .8rem;
+        }
+        h4{
+            border-top: 1px solid #eee;
+            margin-top: 0.8rem
+        }
+        p{
+            padding: 0.5rem;
+            text-align: left;
+            font-size:0.7rem;
+            text-indent: 2rem;
+        }
+    }
+    .antdContact{
+        span{
+            display: inline-block;
+            width: 2.5rem;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .antdChatIcon{
+        a{
+            display: inline-block;
+            width: 2.5rem;
+            height: 2.375rem;
+            margin: 0 0.75rem 0.75rem;
+        }
+        a:nth-child(1){
+            .loop(-115px); 
+        } 
+        a:nth-child(2){
+            .loop(-77px); 
+            height: 2.35rem;
+        } 
+        a:nth-child(3){
+            .loop(-38px); 
+        } 
+        a:nth-child(4){
+            .loop(0); 
+        } 
+    }
+
+
+    .loop(@counter) when (@counter <= 0 ) {
+      background:url("../../components/common/social2.png") no-repeat;
+      background-position: 0 @counter;
+      background-size: 100%;
+    }
+
+
+    //搜索框
+    .ant-search-wrapper{
+        width: 90%;
+        margin:  0 auto;
+        >div{
+            width: 100%;
+            height: 40px;
+        }
+    }
+    .ant-search-input.ant-input-group .ant-input:first-child{
+        height: 40px;
+    }
+    .ant-search-input-wrap{
+        position: absolute;
+        right: 0;
+    }
+    .ant-search-input .ant-search-btn{
+        width: 56px;
+        height: 38px;
+        line-height: 38px;
+    }
+    .anticon-search:before{
+        font-size: 20px;
+    }
+    /* tab*/
+    .antd-tabs-wrapper,.antd-hot-labels{
+        width: 90%;
+        background-color: #fff;
+        padding: 5%;
+        border-radius: 4px;
+        text-align: center;
+        margin: 1.25rem auto;
+        transition: box-shadow 0.5s linear;
+        -moz-transition: box-shadow 0.5s linear;
+        -webkit-transition: box-shadow 0.5s linear;
+        -o-transition: box-shadow 0.5s linear;
+    } 
+    .antd-tabs-wrapper:hover,.antd-hot-labels:hover{
+        box-shadow:0 0 10px #ccc;
+    }
+    .antd-hot-article{
+        li{
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            line-height: 1.5rem;
+            padding: 0 0.75rem 0.75rem;
+            font-size:0.95rem;
+            overflow: hidden;
+            width: 100%;
+            white-space: nowrap;
+            text-overflow: ellipsis; 
+            cursor: pointer;
+            i{
+                font-size: 0.35rem;
+                color:#a5a5a5;
+                display: block;
+                font-style: normal;
+            }
+            span.antd-hot-article-text:hover{
+                color:#2db7f5;
+            }
+            .antd-hot-article-dot{
+                margin: 0 0.25rem;
+            }
+
+        }
+        li:last-child{
+            border:none;
+        }
+    }
+
+    /*标签*/
+    .antd-hot-labels{
+        width: 90%;
+        margin:  0 auto;
+        line-height: 1.25rem;
+        font-size: 0.875rem;
+        padding-bottom: 1.5rem;
+        >div{
+            background-color: #fff;
+            a{
+                margin: 0 2%;
+            }
+        }
+    }
+    /* 微信图片样式 */
+    .antdRightCode{
+        img{
+            width: 100%;
+        }
+    }
+}
