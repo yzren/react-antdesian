@@ -14,6 +14,7 @@
     "js-cookie": "^2.1.1",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
+    "react-markdown": "^2.4.2",
     "react-router": "^2.0.1"
   },
   "devDependencies": {
@@ -25,11 +26,12 @@
     "dora-plugin-livereload": "0.3.x",
     "dora-plugin-proxy": "0.6.x",
     "dora-plugin-webpack": "0.6.x",
-    "expect": "^1.20.1",
     "eslint": "^2.7.0",
     "eslint-config-airbnb": "6.x",
     "eslint-plugin-react": "4.x",
+    "expect": "^1.20.1",
     "glob": "^7.0.3",
+    "gulp": "^3.9.1",
     "pre-commit": "1.x"
   },
   "pre-commit": [

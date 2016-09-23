@@ -16,7 +16,8 @@ const rootRoute2 = {
 		require('../routes/Angular'),
     require('../routes/tool'),
 		require('../routes/DetailWrap'),
-		require('../routes/AboutMe')
+    require('../routes/AboutMe'),
+		require('../routes/publicArticle')
     ]
   } ]
 }

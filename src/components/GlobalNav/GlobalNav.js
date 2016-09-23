@@ -108,6 +108,9 @@ class GlobalNav extends Component {
                 <Menu.Item key="user">
                  <Link to="/aboutme"> <Icon type="user"/>关于我</Link>
                 </Menu.Item>
+                <Menu.Item key="edit">
+                 <Link to="/publicarticle"><Icon type="edit" />发布文章</Link>
+                </Menu.Item>
               </Menu>
             </div>
           </div>

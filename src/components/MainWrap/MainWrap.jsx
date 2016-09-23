@@ -13,7 +13,7 @@ class es6React extends Component{
               <ListLeftWrap/>
             </Col>
             <Col xm={24} sm={24} md={7} lg={7} >
-          <RightWrap/>
+            <RightWrap/>
             </Col>
           </Row>
         </div>

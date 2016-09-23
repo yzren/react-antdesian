@@ -20,7 +20,7 @@ class RightWrap extends Component{
     this._handleInputFocus=this.handleInputFocus.bind(this);//input 获取到焦点
     this._handleSearch=this.handleSearch.bind(this);//搜索框
     this._handleTabs=this.handleTabs.bind(this);//tabs标签切换
-    this._handleHover=this.handleHover.bind(this);//tabs标签切换
+    this._handleHover=this.handleHover.bind(this);//显示微信图片
   }
 
   handleInputChange(e){
@@ -63,7 +63,7 @@ class RightWrap extends Component{
          <ul>
             <li>
               <h3>关于博客</h3>
-              <p>haorooms博客，是Aaron个人技术博客，主要记录和总结前端工作中常用的知识及我的生活。  订阅博客文章，请关注下方微信号，后期会通过订阅号将文章发送到您的手机上。  本博客所有内容若需转载请联系我。</p>
+              <p>FrontEnd博客，是Yzren个人技术博客，主要记录和总结前端工作中常用的知识及我的生活。  订阅博客文章，请关注下方微信号，后期会通过订阅号将文章发送到您的手机上。  本博客所有内容若需转载请联系我。</p>
               <div className="antdContact">
                 <h4>联系方式</h4>
                 <div className="antdChatIcon">
